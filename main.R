@@ -45,3 +45,7 @@ mod.cor <- gls(resp~PGun+TotalDead,data=data,correlation=corGaus(form=~latlon,nu
 summary(mod.cor)
 # r = -0.255
 
+
+# This script written by Theo Jones
+# theodorejones.info  theojones.name
+# The script is placed under the CC0 Public Domain Dedication
