@@ -1,5 +1,5 @@
 #Inspired by this discussion http://slatestarcodex.com/2016/04/02/beware-regional-scatterplots/
-# I wrote a little R script to analyze the data in the gun chart, from that post
+# I wrote a little R script to analyze the data in the gun chart, from that article
 #and test for and adjust for spacial autocorrelation.
 #The Moran’s I test found statistically significant autocorrelation p = 5.1^-06.
 #Post adjustment the strength of the correlation was weaker. 
