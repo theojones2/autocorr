@@ -1,3 +1,4 @@
+#Inspired by this discussion http://slatestarcodex.com/2016/04/02/beware-regional-scatterplots/#comment-342220
 #This Script Needs "ape" package, "gstat", "sp", and "nlime" 
 #Load packages 
 library(ape)
@@ -24,7 +25,7 @@ diag(data.dists.inv) <- 0
 
 #Get Moran's I 
 Moran.I(data$TotalDead, data.dists.inv)
-#Significant autocorrlation
+#Significant autocorrlation p = 5.158247e-06
 
 #Corelation befor adjustment 
 mod.cor <- gls(PGun~TotalDead,data=data)
