@@ -1,4 +1,4 @@
-#Inspired by this discussion http://slatestarcodex.com/2016/04/02/beware-regional-scatterplots/#comment-342220
+#Inspired by this discussion http://slatestarcodex.com/2016/04/02/beware-regional-scatterplots/
 #This Script Needs "ape" package, "gstat", "sp", and "nlime" 
 #Load packages 
 library(ape)
