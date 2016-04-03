@@ -1,4 +1,13 @@
 #Inspired by this discussion http://slatestarcodex.com/2016/04/02/beware-regional-scatterplots/
+# I wrote a little R script to analyze the data in the gun chart, from that post
+#and test for and adjust for spacial autocorrelation.
+#The Moran’s I test found statistically significant autocorrelation p = 5.1^-06.
+#Post adjustment the strength of the correlation was weaker. 
+#The Pearson’s R before adjustment was -0.975, after adjustment r = -0.255. 
+#Note — Pearson’s r not r^2 
+#(because the adjustment created a multiple regression-like situation there 
+#is a bit of a trick to getting the r^2 that I’m too lazy to look up)
+
 #This Script Needs "ape" package, "gstat", "sp", and "nlime" 
 #Load packages 
 library(ape)
