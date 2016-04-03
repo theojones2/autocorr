@@ -36,9 +36,10 @@ diag(data.dists.inv) <- 0
 Moran.I(data$TotalDead, data.dists.inv)
 #Significant autocorrlation p = 5.158247e-06
 
+#Old
 #Corelation befor adjustment 
-mod.cor <- gls(PGun~TotalDead,data=data)
-summary(mod.cor)
+#mod.cor <- gls(PGun~TotalDead,data=data)
+#summary(mod.cor)
 #r = -0.975
 
 #refit model with correlation structure (based on both) using gaussian correlation 
